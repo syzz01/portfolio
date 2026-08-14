@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Muhammad Syazani Adli, a software engineer specialising in backend development, integrations, and maintainable business systems.">
+  <title>Syazani Adli | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Syazani Adli home">Syazani Adli</a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle colour theme">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Hi, I'm Syazani</p>
+          <h1 id="hero-title">Software <span>Engineer</span></h1>
+          <p class="hero-summary">I build and maintain reliable business systems, backend services, and integration platforms.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View projects</a>
+            <a class="button secondary" href="Syazani-Adli-Resume.pdf" download>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14"/></svg>Download CV
+            </a>
+          </div>
+        </div>
+        <div class="portrait-wrap"><img src="syaz.jpg" alt="Muhammad Syazani Adli" class="portrait"></div>
+      </section>
+
+      <section class="overview" id="about">
+        <div class="about-block">
+          <h2><span class="section-icon">◎</span> About me</h2>
+          <p>Software engineer with 3+ years of industry experience developing and maintaining real-world applications. I enjoy turning complex requirements into dependable, maintainable systems, with a focus on backend development, integrations, databases, and code quality.</p>
+        </div>
+        <div id="skills" class="skills-block">
+          <h2><span class="section-icon">&lt;/&gt;</span> Tech stack</h2>
+          <div class="skills-grid">
+            <div class="skill"><b class="skill-mark yellow">JS</b><span>JavaScript</span></div>
+            <div class="skill"><b class="skill-mark blue">TS</b><span>TypeScript</span></div>
+            <div class="skill"><b class="skill-mark green">V</b><span>Vue.js</span></div>
+            <div class="skill"><b class="skill-mark red">PHP</b><span>PHP</span></div>
+            <div class="skill"><b class="skill-mark dark">N</b><span>NestJS</span></div>
+            <div class="skill"><b class="skill-mark teal">Q</b><span>Quarkus</span></div>
+            <div class="skill"><b class="skill-mark orange">SQL</b><span>MySQL</span></div>
+            <div class="skill"><b class="skill-mark mongo">M</b><span>MongoDB</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects">
+        <div class="section-heading"><div><p class="kicker">Selected work</p><h2>Featured projects</h2></div><p>Systems I have helped build, maintain, and extend.</p></div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-top"><span class="project-icon">↔</span><span class="project-year">2026 — Present</span></div>
+            <h3>Mini API & Mini App Platform</h3>
+            <p>Designed and developed an integration layer that enables internal and third-party developers to create Mini Apps connected to the core accounting system.</p>
+            <div class="tags"><span>NestJS</span><span>TypeScript</span><span>MongoDB</span><span>API Design</span></div>
+            <p class="card-note">Built for extensibility without direct changes to the core application.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon">▦</span><span class="project-year">2023 — Present</span></div>
+            <h3>Business & Accounting System</h3>
+            <p>Maintain and enhance a web-based business and accounting platform as its Technical PIC, coordinating bug fixes, minor improvements, and reliable day-to-day operation.</p>
+            <div class="tags"><span>PHP</span><span>jQuery</span><span>MySQL</span><span>HTML</span></div>
+            <p class="card-note">Supervising interns on maintenance work and reviewing their changes in 2026.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon">⌂</span><span class="project-year">2023 — Present</span></div>
+            <h3>Hostel Management System</h3>
+            <p>Developed a microservice-based system for room allocation, student distribution, and check-in/check-out monitoring, integrated with an education platform.</p>
+            <div class="tags"><span>Vue.js</span><span>Quarkus</span><span>Java</span><span>MySQL</span></div>
+            <p class="card-note">Used in operational workflows at Geomatika Malaysia University.</p>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon">⌁</span><span class="project-year">2024 — 2025</span></div>
+            <h3>Client Portal</h3>
+            <p>Delivered bug fixes, maintenance, feature enhancements, and automated data flows for a portal integrated with the accounting system.</p>
+            <div class="tags"><span>Vue.js</span><span>Quarkus</span><span>MongoDB</span><span>n8n</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-icon">✓</span><span class="project-year">2025 — Present</span></div>
+            <h3>E-Invoice Management</h3>
+            <p>Maintain and improve an e-invoice system with a plugin-based architecture designed to integrate with multiple external accounting platforms.</p>
+            <div class="tags"><span>Vue.js</span><span>Quarkus</span><span>Java</span><span>MongoDB</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience-section" id="experience">
+        <div class="section-heading"><div><p class="kicker">Career</p><h2>Experience</h2></div></div>
+        <div class="timeline">
+          <article><span class="timeline-dot"></span><div class="timeline-meta"><strong>SIM IT Sdn. Bhd.</strong><span>Jun 2023 — Present</span></div><div><h3>Software Engineer</h3><p>Develop and maintain full-stack business applications and integrations. Serve as Technical PIC for the Business & Accounting Management System, guide maintenance work, review code, and mentor internship students.</p></div></article>
+          <article><span class="timeline-dot"></span><div class="timeline-meta"><strong>SIM IT Sdn. Bhd.</strong><span>Mar 2023 — Jun 2023</span></div><div><h3>Software Engineering Intern</h3><p>Developed and maintained full-stack web applications, APIs, and database solutions supporting scalable product features.</p></div></article>
+          <article><span class="timeline-dot"></span><div class="timeline-meta"><strong>Kota Tinggi District Education Office</strong><span>Aug 2020 — Sep 2020</span></div><div><h3>IT Intern</h3><p>Built an internal letter management system and provided technical support for office operations and events.</p></div></article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <p class="kicker">Let's connect</p><h2>Have a project or opportunity in mind?</h2>
+        <p>I’m open to conversations about software engineering, backend systems, and platform integrations.</p>
+        <div class="contact-links"><a class="button primary" href="mailto:syaazanii0805@gmail.com">Email me</a><a class="button secondary" href="tel:+60182844508">+60 18-284 4508</a></div>
+      </section>
+    </main>
+    <footer><span>© 2026 Muhammad Syazani Adli</span><a href="#top">Back to top ↑</a></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
