@@ -1,4 +1,4 @@
-# About Me Test
+# About Me
 
 Hi, my name is Syazani. I’m a **Software Engineer with 3 years of experience** in designing, developing, and maintaining software solutions. I currently work at **SIM IT Sdn. Bhd.**, where I focus on building scalable and reliable applications, system integration, and improving software performance and code quality.
 
